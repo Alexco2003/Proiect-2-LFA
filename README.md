@@ -27,7 +27,7 @@ aabbb
 Example of outputs :
 
 Enter the Regular Grammar file name : grammar.txt \
-Enter the file name that contains the words to check: words.txt \
+Enter the file name that contains the words to check : words.txt \
 The word '' is accepted by the grammar. \
 The word 'aa' is accepted by the grammar. \
 The word 'aaa' is not accepted by the grammar. \
