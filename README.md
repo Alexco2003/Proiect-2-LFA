@@ -7,7 +7,7 @@ The Regular Grammar input file needs to have the following layout :
 
 all the production rules
 
-Example of input file (Regular Grammar):
+Example of input file (Regular Grammar) :
 
 S->aA | bB | lambda \
 A->aS \
@@ -15,7 +15,7 @@ B->bC \
 C->bD | b \
 D->dB
 
-Example of input file (the list of words that we want to check):
+Example of input file (the list of words that we want to check) :
 
 
 aa \
