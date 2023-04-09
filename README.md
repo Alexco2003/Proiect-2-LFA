@@ -1,7 +1,7 @@
 # Proiect 2 LFA -> Regular Grammar
 Regular Grammar
 
-Implemented a Python algorithm that gets as input a Regular Grammar and a list of words and determines if the word is accepted or not. 
+Implemented a Python algorithm that gets as input a Regular Grammar and a list of words and determines if the words are accepted or not. 
 
 The Regular Grammar input file needs to have the following layout :
 
