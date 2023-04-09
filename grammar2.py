@@ -43,8 +43,11 @@ def accepts(grammar, symbol, word):
 
 grammar = read_grammar(input("Enter the Regular Grammar file name : ").strip())
 symbol = 'S'
-word = input("Enter a word: ")
-if accepts(grammar, symbol, word):
-    print(f"The word '{word}' is accepted by the grammar.")
-else:
-    print(f"The word '{word}' is not accepted by the grammar.")
+words = input("Enter the file name that contains the words to check : ")
+with open(words, "r") as f:
+    for line in f:
+        word=line.strip()
+        if accepts(grammar, symbol, word):
+            print(f"The word '{word}' is accepted by the grammar.")
+        else:
+            print(f"The word '{word}' is not accepted by the grammar.")
