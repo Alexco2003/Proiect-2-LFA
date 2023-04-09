@@ -33,7 +33,7 @@ The word 'aa' is accepted by the grammar. \
 The word 'aaa' is not accepted by the grammar. \
 The word 'bbb' is accepted by the grammar. \
 The word 'bb' is not accepted by the grammar. \
-The word 'aabbb' is accepted by the grammar. \
+The word 'aabbb' is accepted by the grammar.
 
 
 The algorithm was tested with the following examples to determine its correctness. All tests were successful.
