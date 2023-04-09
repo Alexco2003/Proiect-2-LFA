@@ -17,7 +17,7 @@ D->dB
 
 Example of input file (the list of words that we want to check) :
 
-
+ \
 aa \
 aaa \
 bbb \
