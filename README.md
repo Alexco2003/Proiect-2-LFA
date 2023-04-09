@@ -13,7 +13,7 @@ S->aA | bB | lambda \
 A->aS \
 B->bC \
 C->bD | b \
-D->dB \
+D->dB
 
 Example of input file (the list of words that we want to check):
 
@@ -22,7 +22,7 @@ aa \
 aaa \
 bbb \
 bb \
-aabbb \
+aabbb
 
 Example of outputs :
 
@@ -37,4 +37,5 @@ The word 'aabbb' is accepted by the grammar. \
 
 
 The algorithm was tested with the following examples to determine its correctness. All tests were successful.
+
 ![Screenshot_19](https://user-images.githubusercontent.com/105515716/230786352-cea1f7aa-0203-49ea-af84-3957201e514c.jpg)
