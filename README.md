@@ -9,31 +9,31 @@ all the production rules
 
 Example of input file (Regular Grammar):
 
-S->aA | bB | lambda
-A->aS
-B->bC
-C->bD | b
-D->dB
+S->aA | bB | lambda \
+A->aS \
+B->bC \
+C->bD | b \
+D->dB \
 
 Example of input file (the list of words that we want to check):
 
 
-aa
-aaa
-bbb
-bb
-aabbb
+aa \
+aaa \
+bbb \
+bb \
+aabbb \
 
 Example of outputs :
 
-Enter the Regular Grammar file name : grammar.txt
-Enter the file name that contains the words to check: words.txt
-The word '' is accepted by the grammar.
-The word 'aa' is accepted by the grammar.
-The word 'aaa' is not accepted by the grammar.
-The word 'bbb' is accepted by the grammar.
-The word 'bb' is not accepted by the grammar.
-The word 'aabbb' is accepted by the grammar.
+Enter the Regular Grammar file name : grammar.txt \
+Enter the file name that contains the words to check: words.txt \
+The word '' is accepted by the grammar. \
+The word 'aa' is accepted by the grammar. \
+The word 'aaa' is not accepted by the grammar. \
+The word 'bbb' is accepted by the grammar. \
+The word 'bb' is not accepted by the grammar. \
+The word 'aabbb' is accepted by the grammar. \
 
 
 The algorithm was tested with the following examples to determine its correctness. All tests were successful.
